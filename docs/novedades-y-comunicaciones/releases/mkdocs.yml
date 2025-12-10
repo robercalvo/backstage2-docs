@@ -1,0 +1,9 @@
+site_name: Releases
+docs_dir: .
+site_dir: ../../../site/releases
+
+nav:
+  - Inicio: index.md
+
+theme:
+  name: material
