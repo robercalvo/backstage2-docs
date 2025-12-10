@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: codelabs
+  title: Codelabs
+  description: Codelabs
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: robercalvo/backstage-docs
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: team-docs

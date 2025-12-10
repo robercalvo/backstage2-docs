@@ -1,0 +1,41 @@
+site_name: Novedades y Comunicaciones
+repo_name: backstage-docs
+plugins:
+  - techdocs-core
+  - search
+
+theme:
+  name: material
+  features:
+    - content.tabs.link
+  palette:
+    primary: 'blue'
+    accent: 'blue'
+
+nav:
+  - Introducción: 'index.md'
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+docs_dir: docs
+
+extra:
+  version:
+    provider: mike
+    default: latest

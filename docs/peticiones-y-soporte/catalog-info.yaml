@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: peticiones-y-soporte
+  title: Peticiones y soporte
+  description: Peticiones y soporte
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: robercalvo/backstage-docs
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: team-docs

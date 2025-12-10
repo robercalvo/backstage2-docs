@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: novedades-y-comunicaciones
+  title: Novedades y comunicaciones
+  description: Novedades y comunicaciones
+  annotations:
+    backstage.io/techdocs-ref: dir:. 
+    github.com/project-slug: robercalvo/backstage-docs
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: team-docs

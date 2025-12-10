@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: inventarios-catalogos-activos
+  title: Inventarios, Catálogos y Activos
+  description: Inventarios, Catálogos y Activos
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: robercalvo/backstage-docs
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: team-docs
