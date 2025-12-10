@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: noticias
+  title: Noticias
+  description: Últimas noticias y actualizaciones del equipo
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: robercalvo/backstage2-docs
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: team-docs
