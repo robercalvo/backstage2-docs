@@ -1,0 +1,9 @@
+site_name: Noticias
+docs_dir: .
+site_dir: ../../../site/noticias
+
+nav:
+  - Inicio: index.md
+
+theme:
+  name: material
